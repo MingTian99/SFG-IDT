@@ -1,4 +1,4 @@
-# Vision Transformers for Single Image Dehazing
+# Image Deraining Transformer with Sparsity and Frequency Guidance
 [![Paper](https://img.shields.io/badge/Paper-IEEE%20ICME-blue)](https://doi.org/10.1109/ICME55011.2023.00324) 
 
 [![GoogleDrive](https://img.shields.io/badge/Data-GoogleDrive-brightgreen)](https://drive.google.com/drive/folders/1KRR_L276nviPT9JFPL9zfBiZVKJO6dM1?usp=drive_link)
@@ -16,7 +16,7 @@ Extensive experimental results show that our developed SFG-IDT outperforms the s
 ![SFG-IDT](arch.png)
 
 ## News
-- **Sep 23, 2022:** We will release code coming soon.
+- **Sep 23, 2022:** We will release the code coming soon.
 - **Aug 26, 2023:** [Paper](https://doi.org/10.1109/ICME55011.2023.00324) Online. 
 - **Mar 13, 2023:** [Paper](https://doi.org/10.1109/ICME55011.2023.00324) accepted by IEEE ICME 2023. 
 
@@ -42,9 +42,9 @@ pip install matplotlib scikit-image opencv-python numpy einops math natsort tqdm
 ### Download
 
 You can download the Rain200L/H, Rain800 and Rain1400.
-
 The final file path should be the same as the following:
 
+```
 ┬─ pretrained_models
 │   ├─ Rain200H.pth
 │   ├─ Rain200L.pth
@@ -60,7 +60,7 @@ The final file path should be the same as the following:
     │└─ test
     │      └─ ...
    └────  ... (dataset name)
-    
+```
 
 ## Notes
 
