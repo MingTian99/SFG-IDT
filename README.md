@@ -28,8 +28,8 @@ We test the code on PyTorch 1.9.1 + CUDA 11.1 + cuDNN 8.0.5.
 
 1. Create a new conda environment
 ```
-conda create -n RSDformer python=3.8
-conda activate RSDformer 
+conda create -n SFD_IDT python=3.8
+conda activate SFD_IDT 
 ```
 
 2. Install dependencies
