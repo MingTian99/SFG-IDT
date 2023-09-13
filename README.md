@@ -58,8 +58,8 @@ The final file path should be the same as the following:
     ││   └─ target
     ││   └─ ... (corresponds to the former)
     │└─ test
-    │      └─ ...
-   └────  ... (dataset name)
+    │    └─ ...
+    └────  ... (dataset name)
 ```
 
 ## Notes
